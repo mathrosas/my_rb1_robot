@@ -4,6 +4,10 @@ Mobile robot simulation built from scratch using **URDF** and **Gazebo Classic**
 
 Part of the [ROS & ROS 2 Developer Master Class](https://www.theconstructsim.com/) certification (Phase 1).
 
+<p align="center">
+  <img src="media/my_rb1_robot.gif" alt="RB-1 robot in Gazebo warehouse simulation" width="700"/>
+</p>
+
 ## Robot Description
 
 The RB-1 replica is a differential-drive cylindrical robot with the following specs:
@@ -40,6 +44,10 @@ The project was developed incrementally across three tasks, each marked with a G
 - Defined all links and joints with proper dimensions, mass distribution, and inertia tensors
 - Created `display.launch` to visualize the robot in **RViz** using `joint_state_publisher_gui` and `robot_state_publisher`
 - Drive wheel joints are controllable via the GUI slider
+
+<p align="center">
+  <img src="media/cp1-rviz-good.png" alt="RB-1 URDF visualized in RViz with TF frames and link labels" width="700"/>
+</p>
 
 ### Task 2 - Spawn in Gazebo (`git checkout task2`)
 
